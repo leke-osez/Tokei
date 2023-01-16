@@ -1,0 +1,20 @@
+{
+  "name": "tokei",
+  "version": "1.0.0",
+  "description": "crypto pricing script",
+  "main": "index.js",
+  "bin": "./bin/tokei.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leke-osez/Tokei.git"
+  },
+  "author": "Praise",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leke-osez/Tokei/issues"
+  },
+  "homepage": "https://github.com/leke-osez/Tokei#readme"
+}
