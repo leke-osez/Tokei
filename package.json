@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "crypto pricing script",
   "main": "index.js",
-  "bin": "./bin/tokei.js",
+  "bin": "./bin/tokei.cjs",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/leke-osez/Tokei/issues"
   },
-  "homepage": "https://github.com/leke-osez/Tokei#readme"
+  "homepage": "https://github.com/leke-osez/Tokei#readme",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "colors": "^1.4.0",
+    "commander": "^10.0.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.32.0"
+  }
 }
